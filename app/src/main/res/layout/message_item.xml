@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/itemMessageLayout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textNameMessageItem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="monospace"
+            android:text="userName"
+            android:textAllCaps="false"
+            android:textColor="@color/browser_actions_text_color"
+            android:textSize="14sp"
+            android:textStyle="normal"
+            android:typeface="normal" />
+
+        <com.github.library.bubbleview.BubbleTextView
+            android:id="@+id/textMessageItem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="casual"
+            android:lineSpacingExtra="0sp"
+            android:text="This is message"
+            android:padding="5sp"
+            android:textColor="#ffffff"
+            android:textAllCaps="false"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:typeface="normal"
+            app:angle="10sp"
+            app:arrowWidth="10sp"
+            app:arrowHeight="8sp"
+            app:arrowLocation="left"
+            app:arrowPosition="10sp"
+            app:bubbleColor="#000000"
+            app:arrowCenter="false" />
+
+        </LinearLayout>
+
+    <TextView
+        android:id="@+id/timeMessageItem"
+        android:textStyle="normal"
+        android:layout_gravity="center"
+        android:text="this is time 12:32"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

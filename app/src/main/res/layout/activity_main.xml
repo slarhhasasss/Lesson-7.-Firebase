@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    android:id="@+id/coordinatorLayMain"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_dodgeInsetEdges="bottom"
+        android:paddingBottom="0sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <LinearLayout
+            android:id="@+id/linearLayEdittext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="#ECECEC"
+            android:paddingBottom="10sp"
+            android:layout_alignParentBottom="true">
+
+            <hani.momanii.supernova_emoji_library.Helper.EmojiconEditText
+                android:id="@+id/editTextMessageField"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:background="#ECECEC"
+                android:layout_weight="1"
+                android:hint="Message..."
+                android:maxHeight="100sp"
+                android:padding="5sp" />
+
+            <ImageView
+                android:id="@+id/emojiButton"
+                android:layout_width="40sp"
+                android:layout_height="40sp"
+                android:background="#ECECEC"
+                android:padding="4sp"
+                android:src="@drawable/ic_emoji_smile" />
+
+            <ImageView
+                android:id="@+id/buttonSend"
+                android:layout_width="40sp"
+                android:layout_height="40sp"
+                android:onClick="onClickMainActivity"
+                android:padding="4sp"
+                android:background="#ECECEC"
+                android:src="@drawable/ic_send_24dp" />
+
+        </LinearLayout>
+
+
+        <ListView
+            android:id="@+id/listOfMessages"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:divider="@android:color/transparent"
+            android:dividerHeight="16sp"
+            android:layout_margin="8sp"
+            android:transcriptMode="alwaysScroll"
+            android:layout_marginBottom="16sp"
+            android:stackFromBottom="true"
+            android:layout_above="@+id/linearLayEdittext">
+
+
+        </ListView>
+
+
+
+    </RelativeLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

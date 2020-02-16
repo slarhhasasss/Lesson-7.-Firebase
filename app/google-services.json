@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "29732829854",
+    "firebase_url": "https://lesson-7firebase.firebaseio.com",
+    "project_id": "lesson-7firebase",
+    "storage_bucket": "lesson-7firebase.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:29732829854:android:cad21ca333dc1251b4d98f",
+        "android_client_info": {
+          "package_name": "ru.kolesnikovdmitry.lesson7firebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "29732829854-r1ccrdh5kjsqu93q561ihcu6c0crcimr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "ru.kolesnikovdmitry.lesson7firebase",
+            "certificate_hash": "0643ae451fc9f04cbb0debb3048f06ab3e0dd529"
+          }
+        },
+        {
+          "client_id": "29732829854-cb88ddq29qgcee5skh2ohla6rhabva3k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCYdwEInFAi1RiuT0f0QiLsX9zTOkOnVCs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "29732829854-cb88ddq29qgcee5skh2ohla6rhabva3k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Lesson 7.Firebase</string>
+    <string name="btn_send_hello_activity_main">send hello</string>
+    <string name="title_activity_support">SupportActivity</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="edit_text_message_main_activity">Message...</string>
+</resources>
